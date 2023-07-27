@@ -12,7 +12,7 @@ The app loads the weather data for the first city (in this case, "Erfurt") and t
 
 ## Usage 🚀
 
-To use the Weather App, simply open the `index.html` file in a web browser. The app will automatically load weather data for different cities and update the display every 30 seconds.
+To use the Weather App, simply open the `index.html` file in a web browser. The app will automatically load weather data for different cities and update the display every 5 minutes.
 
 ## Customization ✏️
 
