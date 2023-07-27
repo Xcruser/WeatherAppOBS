@@ -8,7 +8,7 @@
 
 The Weather App is built using HTML, CSS, and JavaScript. It utilizes the OpenWeatherMap API to fetch weather data for different cities. The app displays the current weather, temperature, humidity, and wind speed for each city. The list of state capitals of German states is predefined in the JavaScript code.
 
-The app loads the weather data for the first city (in this case, "Erfurt") and then updates the display every 30 seconds with data for a new city from the predefined list.
+The app loads the weather data for the first city (in this case, "Erfurt") and then updates the display every 5 minutes with data for a new city from the predefined list.
 
 ## Usage 🚀
 
