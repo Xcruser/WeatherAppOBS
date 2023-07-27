@@ -4,6 +4,7 @@
 
 **Weather App** is a simple weather application that displays the current weather for various state capitals of Germany. The app fetches weather data from the OpenWeatherMap API and updates the information every 30 seconds with a new city.
 
+Demo : (https://codepen.io/xcruser/details/wvQYjWW)
 ## How it works 🔄
 
 The Weather App is built using HTML, CSS, and JavaScript. It utilizes the OpenWeatherMap API to fetch weather data for different cities. The app displays the current weather, temperature, humidity, and wind speed for each city. The list of state capitals of German states is predefined in the JavaScript code.
