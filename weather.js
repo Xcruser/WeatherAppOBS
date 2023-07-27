@@ -57,12 +57,16 @@ let weather = {
         const { icon, description } = data.weather[0];
         const { temp, humidity } = data.main;
         const { speed } = data.wind;
+
+        // Convert temperature to whole number (integer)
+        const tempInWholeNumber = parseInt(temp);
+
         // Update the corresponding elements in the HTML page
         document.querySelector(".city").innerText = "Wetter in " + name;
         document.querySelector(".icon").src =
             "https://openweathermap.org/img/wn/" + icon + ".png";
         document.querySelector(".description").innerText = description;
-        document.querySelector(".temp").innerText = temp + "°C";
+        document.querySelector(".temp").innerText = tempInWholeNumber + "°C"; // Display whole number temperature
         document.querySelector(".humidity").innerText =
             "Luftfeuchtigkeit: " + humidity + "%";
         document.querySelector(".wind").innerText =
