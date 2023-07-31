@@ -85,4 +85,4 @@ let weather = {
 weather.search();
 setInterval(function () {
     weather.search();
-}, 5 * 60 * 1000); // 5 minutes converted into milliseconds
+}, 30 * 1000); // 5 * 60 * 1000); 5 minutes converted into milliseconds
