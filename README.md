@@ -17,7 +17,7 @@ To use the Weather App, simply open the `index.html` file in a web browser. The 
 
 ## Customization ✏️
 
-If desired, you can customize the list of cities in the `weather.js` file to add more state capitals or modify existing ones.
+If desired, you can customize the list of cities in the weather.js file to add more state capitals or modify existing ones. Additionally, to make the background visible again under the .card parameter, you can uncomment or remove the background-color property in the .card class. Similarly, you can set the color property to "white" or any other color of your choice in the .card and .weather.loading:after classes to customize the text color.
 
 ## Note: Setting Up the API Key
 
