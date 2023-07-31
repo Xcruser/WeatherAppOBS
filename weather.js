@@ -1,5 +1,5 @@
 let weather = {
-    apiKey: "YOUR_OPENWEATHERMAP_API_KEY", // Insert the APIKey here
+    apiKey: "4aca9951f3aa4c346444f87e4c75daeb", // Insert the APIKey here
     cities: [
         "Berlin",      // Berlin
         "Hamburg",     // Hamburg
